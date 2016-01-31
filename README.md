@@ -21,9 +21,17 @@ Write commit message like this
 - `[TRELLO_CARD_ID] I did something in the commit`  
 - `[D2k8wWd] Update package.json`
 - `[dw1kkVS] Fix a bug that will crash the app, [W2skAPd] Fix UI issue on home page`
-
+  
+It will send comment to cards like the following  
+  
+```
+Philip Yu added a commit to branch testing
+"[dw1kkVS] Fix a bug that will crash the app, [W2skAPd] Fix UI issue on home page"
+https://bitbucket.org/[YOUR_PROJECT_NAME]/[YOUR_REPO_NAME]/commits/9aa4a77961232rhu3hjde3174691ea48a151985
+```
+  
 **Security**
-
+  
 You might whitelist the following IP range from BitBucket  
 (https://confluence.atlassian.com/bitbucket/manage-webhooks-735643732.html)  
 131.103.20.160/27  
