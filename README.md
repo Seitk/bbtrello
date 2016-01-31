@@ -11,6 +11,8 @@ Point the URL to your bbtrello address, it needs to be public accessible
 - Download the bbtrello source code  
 (Sorry I didn't make it a npm module yet)  
 
+- Install dependency by `npm install`  
+
 - Configure the setting file in `config.json`
 
 - Start the server with `node server.js`
