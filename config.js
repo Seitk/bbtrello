@@ -4,7 +4,7 @@ module.exports = {
   },
   Trello: {
     APP_KEY: "<Your APP Key>", // DO enter the key you get from https://trello.com/app-key
-    APP_TOKEN: "<Your APP Token>", // DO enter the token you get from /get_token
+    APP_TOKEN: "<Your APP Token>", // DO enter the token you get from /get_token   . WARNING: It's not your App Secret.
 
     // This is for checking, DO NOT change
     isAppKeySet: function() {
